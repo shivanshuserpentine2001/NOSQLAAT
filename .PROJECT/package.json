@@ -1,0 +1,36 @@
+{
+  "name": "ccnosqlaat",
+  "version": "1.0.0",
+  "description": "nosql and cloud computing aat made on vscode using nodejs,express.mongodb,docker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivanshuserpentine2001/NOSQLAAT.git"
+  },
+  "keywords": [
+    "NOSQL",
+    "MONGODB",
+    "CLOUD",
+    "COMPUTING",
+    "DOCKER",
+    "NODEJS/EXPRESSJS",
+    "HTML/CSS"
+  ],
+  "author": "SHIVANSHU",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivanshuserpentine2001/NOSQLAAT/issues"
+  },
+  "homepage": "https://github.com/shivanshuserpentine2001/NOSQLAAT#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "mongoose": "^6.8.0",
+    "mongoose-int32": "^0.6.0",
+    "nodemon": "^2.0.20"
+  }
+}

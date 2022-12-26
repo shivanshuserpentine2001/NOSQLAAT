@@ -1,0 +1,27 @@
+<h3><a class="btn btn-secondary" href="http://localhost:3800/cancer"><i class="fa fa-plus"></i> Create New</a> Cancer List</h3>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ALCOHOLCONSUMING</th>
+            <th>AGE</th>
+            <th>CHRONICDISEASE</th>
+            <th>GENDER</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each list}}
+        <tr>
+            <td>{{this.ALCOHOLCONSUMING}}</td>
+            <td>{{this.AGE}}</td>
+            <td>{{this.CHRONICDISEASE}}</td>
+            <td>{{this.GENDER}}</td>
+            <td>
+  
+                <a href="/cancer/{{this._id}}"><i class="fa fa-pencil fa-lg" aria-hidden="true"></i></a>
+                <a href="/cancer/delete/{{this._id}}" onclick="return confirm('Are you sure to delete this record ?');"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></a>
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
